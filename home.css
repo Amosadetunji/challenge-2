@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+    /* width: 1440px; */
+    /* height: 1785px; */
+    background-color: #FAFAFA;
+    /* background-image: url(./image/backgroud.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute; */
+}
+main{
+    width: 1110px;
+    margin: 0 auto;
+    /* position:relative; */
+    
+}
+.logo{
+    padding-top: 81px;
+}
+.header{
+    display: flex;
+}
+.header h1{
+    margin-top: 174px;
+    font-size: 3.5rem;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    line-height: 4rem;
+    width: 540px;
+}
+.header p{
+    margin-top: 24px;
+    font-size: 1.125rem;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    line-height: 1.75rem;
+    width: 540px;
+}
+.header button{
+    margin-top: 32px;
+    font-size: 1rem;
+    padding-left: 41px;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-right:41px ;
+    background:#5175FF ;
+    width: Fixed (171px);
+    border-radius:56px ;  
+    border: none;
+    color: #fff;
+    font-family:kumbh Sans;
+    font-weight:700 ;
+    line-height:1.75rem ;
+    letter-spacing: 0em;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    width: 475px;
+    height: 531px;
+    margin-left: 95px;
+}
+.image1{
+    margin-top: 148px;
+}
+.image2{
+    margin-top: 102px;
+}
+section{
+    margin-top: 255px;
+}
+.basicpro{
+    display: flex;
+    gap: 30px;
+}
+.basic{
+    width: 350px;
+    height: 508px;
+    box-shadow: 0px 50px 50px -25px #4B5C9A3F;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+.basic h3{
+    font-size: 1.25rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    color: #333950;
+    line-height: 28px;
+    padding-top: 40px;
+    text-align: center;
+}
+.basic h2{
+    font-size: 3.5rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    color: #333950;
+    line-height: 64px;
+    padding-top: 40px;
+    text-align: center;
+}
+.basic p{
+    font-size: 1rem;
+    font-family: Kumbh sans;
+    font-weight: 400;
+    color: #333950;
+    line-height: 28px;
+    text-align: center;
+}
+.p1{
+    margin-top: 8px;
+}
+.p2{
+    margin-top: 56px;
+}
+.p3{
+    margin-top: 16px;
+}
+.p4{
+    margin-top: 16px;
+}
+.basic button{
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    background-color: #5175FF;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left:41.5px ;
+    padding-right:41.5px ;
+    margin-left: 90px;
+    margin-top: 20px;
+    border: none;
+    /* opacity:15.26%; */
+
+}
+
+.basic a{
+   color:#FFFFFF;
+   text-decoration: none;
+}
+.pro{
+    width: 350px;
+    height: 508px;
+    box-shadow: 0px 50px 50px -25px #4B5C9A3F;
+    border-radius: 12px;
+    background-image: url(./image/backgroundblue.png);
+}
+.pro h3{
+    font-size: 1.25rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 28px;
+    padding-top: 40px;
+    text-align: center;
+}
+.pro h2{
+    font-size: 3.5rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 64px;
+    padding-top: 40px;
+    text-align: center;
+}
+.pro p{
+    font-size: 1rem;
+    font-family: Kumbh sans;
+    font-weight: 400;
+    color:#FFFFFF;
+    line-height: 28px;
+    text-align: center;
+}
+.pro button{
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: Kumbh sans;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    line-height: 28px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left:41.5px ;
+    padding-right:41.5px ;
+    margin-left: 90px;
+    margin-top: 20px;
+    border: none;
+}
+.pro a{
+    color:#5175FF;
+    text-decoration: none;
+ }
+
+ .footerbackground{
+    max-width:100%;
+    height: 603px;
+    background-color: #25293A;
+    position: absolute;
+    right: 0;
+    left:0;
+    top:940px;
+    z-index: -1;
+ }
+
+ .secondsect{
+    position: relative;
+
+ }
+ .footerbackground h2{
+    margin-top: 336px;
+    margin-left: 200px;
+
+ }
+ .footer{
+    display: flex;
+ }
