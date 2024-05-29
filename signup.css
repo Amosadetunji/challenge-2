@@ -6,10 +6,6 @@ body{
     max-width: 100%;
    /* background-color: #FAFAFA; */
 }
-main{
-    /* width: 1110px; */
-    /* margin: 0 auto; */
-}
 .parent{
     display: flex;
     position: relative;
@@ -138,9 +134,8 @@ main{
 .countdown{
     width: 100px;
     border-radius: 10px;
-    background-color: #5175FF;
+    background: rgba(81, 117, 255, 0.1);
     border: none;
-    opacity: 10%;
     
 }
 .countdown h1{
@@ -161,4 +156,17 @@ main{
     color: #333950;
     padding-bottom: 16px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .parent{
+        display: block;
+        position: relative;
+    }
+    .section-3{
+        position: absolute;
+        right: 5%;
+        top: 80%;
+    }
+
 }

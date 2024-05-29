@@ -7,16 +7,15 @@ body{
     /* width: 1440px; */
     /* height: 1785px; */
     background-color: #FAFAFA;
-    /* background-image: url(./image/backgroud.png);
+     /* background-image: url(./image/backgroud.png);
     background-repeat: no-repeat;
     background-position: right;
-    position: absolute; */
-}
+    background-position: top; */
+} 
 main{
     width: 1110px;
     margin: 0 auto;
     /* position:relative; */
-    
 }
 .logo{
     padding-top: 81px;
@@ -137,7 +136,8 @@ section{
     font-size: 1rem;
     font-family: Kumbh sans;
     font-weight: 700;
-    background-color: #5175FF;
+    /* background-color: #5175FF; */
+    background: rgba(81, 117, 255, 0.5);
     line-height: 28px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -294,4 +294,24 @@ section{
 .footer button:hover{
     opacity: 20%;
     color: #FAFAFA;
+}
+
+
+
+@media screen and (max-width: 376px){
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .basicpro{
+        display: block;
+    }
+    .footerbackground{
+        position: static;
+    }
+    .footer{
+        display: block;
+    }
+
 }
