@@ -95,9 +95,6 @@ function formValidation (e){
                 const numberControl = number.parentElement
                 numberControl.classList.add('success')
             }
-
-
-
             if(companyValue === '') {
                 const companyControl = company.parentElement
                 const span = companyControl.querySelector('span')
@@ -111,6 +108,7 @@ function formValidation (e){
             } else {
                 const companyControl = company.parentElement
                 companyControl.classList.add('success')
+                alert('Form submitted')
             }
         
     

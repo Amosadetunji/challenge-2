@@ -13,12 +13,15 @@ body{
 .section-1{
     background-color: #FAFAFA;
     width: 1020px;
+    min-height: 100%;
     padding-left: 165px;
     padding-bottom: 299px;
 }
 .section-2{
     background-image: url(./image/backgroundsignup.png);
     width: 420px;
+    max-height: 100%;
+    min-height: 100%;
 }
 .section-3{
     position: absolute;
@@ -155,22 +158,6 @@ body{
     padding-bottom: 16px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .input ion-icon{
     position: absolute;
     top: 30px;
@@ -180,8 +167,6 @@ body{
 .input{
     position: relative;
 }
-
-
 .input.success input{
     border-bottom: 1px solid green;
 }
@@ -216,15 +201,44 @@ body{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 468px){
     .parent{
-        display: block;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        position: static;
+        /* width: 100%; */
+    }
+    .section-1{
+        background-color: #FAFAFA;
+        max-width: 90%;
+        padding-left: 10px;
+        padding-bottom: 0px;
+    }
+    .header h1 {
+        width: 100%;
+    }
+    .header p{
+        width: 100%;
+    }
+    .footerbackground{
+        width: 100%;
+    }
+    .countdown{
+        width: 70px;
+    }
+    .footer{
+        width: 90%;
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .section-3{
-        position: absolute;
-        right: 5%;
-        top: 80%;
+        position: static;
+        /* right: 5%;
+        top: 80%; */
+    }
+    .form{
+        width: 100%;
     }
 
 }
