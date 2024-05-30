@@ -81,8 +81,6 @@ body{
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 51px;
-}
-.form button a{
     color: #FAFAFA;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -157,6 +155,66 @@ body{
     padding-bottom: 16px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input ion-icon{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    visibility: hidden;
+}
+.input{
+    position: relative;
+}
+
+
+.input.success input{
+    border-bottom: 1px solid green;
+}
+.input.error input{
+    border-bottom: 1px solid red;
+}
+.input span{
+    width: 360px;
+    padding-left: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    /* visibility: hidden; */
+}
+.input.error span{
+    color: tomato;
+    visibility: visible;
+}
+.input.success span{
+    color: green;
+    visibility: visible;
+}
+.input.success ion-icon[name='checkmark-circle-outline']{
+    visibility: visible;
+    color: green;
+}
+.input.error ion-icon[name='alert-circle-outline']{
+    visibility: visible;
+    color: red;
+}
+
 
 @media screen and (max-width: 768px){
     .parent{

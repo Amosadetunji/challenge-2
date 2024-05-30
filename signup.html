@@ -53,27 +53,39 @@
         <div class="section-2"></div>
         <div class="section-3">
             <div>
-                <form class="form">
-                    <div class="input">
-                        <input type="text" placeholder="Name"/>
+                <form class="form" id="form">
+                    <div class="input" id="namess">
+                        <input type="text" id="fullName" placeholder="Name"/>
+                        <ion-icon name="alert-circle-outline" class="check"></ion-icon>
+                        <ion-icon name="checkmark-circle-outline" class="exclamation"></ion-icon>
+                        <span></span>
+                    </div>
+                    <div class="input" id="emailss">
+                        <input type="Email" id="email" placeholder="Email Address"/>
+                        <ion-icon name="alert-circle-outline" class="check"></ion-icon>
+                        <ion-icon name="checkmark-circle-outline" class="exclamation"></ion-icon>
+                        <span></span>
                     </div>
                     <div class="input">
-                        <input type="Email" placeholder="Email Address"/>
-                    </div>
-                    <div class="input">
-                        <select class="select">
-                            <option value="Basic Pack Free">Basic Pack Free</option>
-                            <option value="Pro Pack $9.99">Pro Pack $9.99</option>
-                            <option value="Ultimate Pack $19.99">Ultimate Pack $19.99</option>
+                        <select class="select" >
+                            <option value="Basic Pack Free">Basic Pack <span>Free</span></option>
+                            <option value="Pro Pack $9.99">Pro Pack <span>$9.99</span></option>
+                            <option value="Ultimate Pack $19.99">Ultimate <span>Pack $19.99</span></option>
                         </select>
                     </div>
-                    <div class="input">
-                        <input type="number" placeholder="Phone Number"/>
+                    <div class="input" id="numberss">
+                        <input type="number" id="number" placeholder="Phone Number"/>
+                        <ion-icon name="alert-circle-outline" class="check"></ion-icon>
+                        <ion-icon name="checkmark-circle-outline" class="exclamation"></ion-icon>
+                        <span></span>
                     </div>
-                    <div class="input">
-                        <input type="Text" placeholder="Company"/>
+                    <div class="input" id="companyss">
+                        <input type="Text" id="company" placeholder="Company"/>
+                        <ion-icon name="alert-circle-outline" class="check"></ion-icon>
+                        <ion-icon name="checkmark-circle-outline" class="exclamation"></ion-icon>
+                        <span></span>
                     </div>
-                    <button><a href="#">Get on the list</a></button>
+                    <button type="submit">Get on the list</button>
                 </form>
             </div>
         </div>
@@ -81,5 +93,6 @@
 
 </body>
 <script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
 </html>
