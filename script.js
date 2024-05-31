@@ -43,7 +43,7 @@ const emailRegex = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}
 
 function formValidation (e){
    
-    // e.preventDefault()
+    e.preventDefault()
     const nameValue = fullName.value.trim()
     console.log(nameValue);
     const emailValue = email.value.trim()
