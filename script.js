@@ -25,7 +25,7 @@ function startCountdown(targetDate) {
     updateCountdown();
 }
 
-const targetDate = new Date().getTime() + (47 * 24 * 60 * 60 * 1000);
+const targetDate = new Date().getTime() + (48 * 24 * 60 * 60 * 1000);
 startCountdown(targetDate);
 
 
